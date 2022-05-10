@@ -2,39 +2,30 @@
 [![Code Coverage](https://codecov.io/github/edalring/travis-ci-tutorial-java/coverage.svg)](https://codecov.io/gh/edalring/travis-ci-tutorial-java)
 
 # travis-ci-tutorial-java
+**Student name: 周一凡  Student ID: 11910311**
+
 Just to learn how to use travis-ci in a java project!
 
-This is a working minimal example of how to use Travis CI (and Codecov) with Java on GitHub.
+# Result screen shoot
+As the tool ask me to pay for the service, I can not continue to finnish.
+![image](https://user-images.githubusercontent.com/85542649/167535935-0f8350b9-be52-456b-9906-bcc596f8f14e.png)
 
-- It uses the [JUnit](https://junit.org) testing framework
+![image](https://user-images.githubusercontent.com/85542649/167536681-facddb36-9c70-4d3b-a99a-696e14a7cd97.png)
 
-[Click here for the example using GitHub Actions instead of Travis CI](https://github.com/joaomlneto/github-ci-tutorial-java)
 
-# How To Start
+# Questions
+### (1) Do your selected project use Continous Integration? If yes, what is the service that it uses (Travis CI, GitHub Actions, Jenkins, Bamboo)? You can check the service used by clicking on the build:passing/failing badge. (If no, answer this question by checking what is the service that https://github.com/google/guava used?)
 
-1. [Fork](https://github.com/joaomlneto/travis-ci-tutorial-java/fork) this Repository
-2. Go to [Travis CI](http://travis-ci.com) and enable the repository
-3. Fix the `README.md` badges (replacing in the URL `joaomlneto` with `your-github-username`) and push the changes. This should trigger a build in Travis CI!
+No, then I will checking the `https://github.com/google/guava` instead.
 
-## Optional: Code Coverage with CodeCov
+The guava use the GitHub Actions as the service tool it does.
 
-This repository also integrates with Codecov to generate reports.
+### (2)What are the jobs (e.g., install, script) defined to be run with CI for your selected project.(If your project does not use CI, answer this question by checking https://github.com/google/guava used?)
 
-What's done for you:
-- The [JaCoCo](https://www.jacoco.org) plugin is included in `pom.xml`
-- On `.travis.yml`, `after_success` target executes the Codecov script.
+The jobs in guava's CI are something like install the dependencies, publish the snapshot and generate documentations.
 
-If you want to use it:
-- Go to the Codecov website and create an account and setup permissions.
-- Add your repository (you can go there directly by going to https://codecov.io/gh/your-github-username/travis-ci-tutorial-java)
-- Fix the `README.md` badge.
 
-If you don't want it:
-- Remove the [JaCoCo](https://www.jacoco.org) plugin from the `pom.xml`.
-- Remove the `after_success` target in `.travis.yml`
-- Remove the badge from `README.md`
 
-# Contributing
 
-Spotted a mistake? Questions? Suggestions?  
-[Open an Issue](https://github.com/joaomlneto/travis-ci-tutorial-java/issues/new)!
+
+
